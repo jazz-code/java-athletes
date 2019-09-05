@@ -2,8 +2,9 @@ package com.lambdaschool.solution;
 
 public class TrackAthleteImpl implements AthleteService
 {
-    @Override void displayAthlete(String sport)
+    @Override
+    public void displayAthlete()
     {
-        System.out.println(sport);
+        System.out.println(Track);
     }
 }

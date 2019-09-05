@@ -1,19 +1,19 @@
-package com.lambdaschool.soultion;
+package com.lambdaschool.solution;
 
 public class MyApplication implements Processor
 {
-   private AthleteService msgSrv;
+    private AthleteService athlete;
 
-   public MyApplication(AthleteService msgSrv)
-   {
-       this.msgSrv = msgSrv;
-   }
+    public MyApplication(AthleteService athlete)
+    {
+        this.athlete = athlete;
+    }
 
     @Override
-    public void displayAthlete(String sport)
+    public void displayAthlete()
     {
         System.out.println("************");
-        athlete.display(sport);
+        athlete.displayAthlete();
         System.out.println("************\n");
     }
 }
