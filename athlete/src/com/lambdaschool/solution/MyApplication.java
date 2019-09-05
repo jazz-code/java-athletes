@@ -1,10 +1,16 @@
-package com.lambdaschool.initial;
+package com.lambdaschool.soultion;
 
-public class MyApplication
+public class MyApplication implements Processor
 {
-//    private Athlete athlete = new Athlete();
+   private MessageAthlete msgAthl;
 
-    public void create(String sport)
+   public MyApplication(MessageAthlete msgAthl)
+   {
+       this.msgAthl = msgAthl;
+   }
+
+    @Override
+    public void displayAthlete(String sport)
     {
         System.out.println("************");
         athlete.display(sport);
