@@ -2,9 +2,9 @@ package com.lambdaschool.soultion;
 
 public class MyApplication implements Processor
 {
-   private MessageService msgSrv;
+   private AthleteService msgSrv;
 
-   public MyApplication( MessageService msgSrv)
+   public MyApplication(AthleteService msgSrv)
    {
        this.msgSrv = msgSrv;
    }
