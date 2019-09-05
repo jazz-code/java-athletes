@@ -2,11 +2,11 @@ package com.lambdaschool.soultion;
 
 public class MyApplication implements Processor
 {
-   private MessageAthlete msgAthl;
+   private MessageService msgSrv;
 
-   public MyApplication(MessageAthlete msgAthl)
+   public MyApplication( MessageService msgSrv)
    {
-       this.msgAthl = msgAthl;
+       this.msgSrv = msgSrv;
    }
 
     @Override
